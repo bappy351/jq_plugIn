@@ -1,0 +1,97 @@
+.counter_up {
+    font-size: 35px;
+    color: #90bda6;
+    font-weight: 800;
+    font-family: inherit;
+
+}
+
+.bounce_margin {
+    margin-top: 130px;
+}
+
+.counter_up1 {
+    font-size: 23px;
+    color: cadetblue;
+    font-weight: 800;
+    font-family: inherit;
+    margin: 0;
+}
+
+.counter_up2 {
+    margin-top: 50px;
+}
+
+.counter_up3 {
+    font-size: 30px;
+    color: royalblue;
+    font-weight: 800;
+    font-family: inherit;
+    text-align: center;
+}
+
+.counter {
+    font-size: 35px;
+    color: cadetblue;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.slidebar_button {
+    margin-left: 200px;
+}
+
+.slidebar_button1 {
+    margin-right: 200px;
+}
+
+.header.svelte-wt0boo {
+    position: -webkit-sticky;
+    position: sticky
+}
+
+@keyframes svelte-rgly7b-blinker {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+.blink.svelte-rgly7b {
+    animation: svelte-rgly7b-blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate
+}
+
+.loader.svelte-1p7krfw {
+    width: 40px;
+    height: 40px
+}
+
+.bounce1.svelte-1p7krfw,
+.bounce2.svelte-1p7krfw {
+    animation: svelte-1p7krfw-bounce 2.0s infinite ease-in-out
+}
+
+.bounce2.svelte-1p7krfw {
+    animation-delay: -1.0s
+}
+
+@keyframes svelte-1p7krfw-bounce {
+    0%,
+    100% {
+        transform: scale(0.0)
+    }
+    50% {
+        transform: scale(1.0)
+    }
+}
+
+.font_color_form{
+    color: white !important;
+}
